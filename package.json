@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
+    "engines": {
+        "node": "16.18.1"
+      },
     "scripts": {
         "setup": "npm install && cd client && npm install && cd ..",
         "build-run": "cd client && npm run build && cd .. && node server.js",
